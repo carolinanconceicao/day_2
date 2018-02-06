@@ -11,9 +11,9 @@ if __name__ == '__main__':
     with open('pg3333.txt', encoding='utf-8') as handle_in:
         for line in handle_in: #read line by line
             for word in line.split():
-                word = word.strip() #clean spaces and line feed begin and end
-                for char in word:
-                    print(char)
+                #word = word.strip() #clean spaces and line feed begin and end
+                #for char in word:
+                    #print(char)
                 print(len(word))
                 print(word.isalpha())
                 if (len(word) == 0 or not word.isalpha()): continue
