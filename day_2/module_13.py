@@ -5,7 +5,6 @@ Created on 06/02/2018
 '''
 
 if __name__ == '__main__':
-    
     dict = {}
     #open file
     with open('pg3333.txt', encoding='utf-8') as handle_in:
